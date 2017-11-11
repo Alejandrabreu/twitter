@@ -36,11 +36,15 @@
 		<h5>Soy una coder in progress</h5>
 		<h4>codigo</h4>
 </section>
+
 <section class="dch">
-		<textarea class="text" id="msj"placeholder="Que estas haciendo?"></textarea>
-		<button type="button" id="btn" onclick="add()">Tweet<i class="fa fa-plus-circle" aria-hidden="true"></i>
-		</button>
+	<textarea id="msj" placeholder="Que esta pasando?" onKeyDown="contar()" onKeyUp="contar()" rows="8" cols="38"></textarea>    
+    <button type="button" id="btn" onclick="add()">Tweet<i class="fa fa-plus-circle" aria-hidden="true"></i>
+	</button>
+	<!--<label>Caracteres restantes:</label>-->
+         <input disabled size="3" value="150" id="contador"> 
 </section>
+
 <div id="cont"></div>
 <script src="https://use.fontawesome.com/2def4b1617.js"></script>
 <script type="text/javascript" src="js/app.js"></script>
