@@ -103,7 +103,7 @@ h2 {
 	padding-right: 200px;
 	padding-left: 20px;
 	display: block;
-
+	
 }
 h5{
 	line-height: 0;
@@ -121,6 +121,7 @@ h4{
 	padding-top: 40px;
 	padding-left: 40px;
 	padding-right: 60px;
+	
 }
 #msj{
 	opacity: 9;
@@ -135,12 +136,16 @@ h4{
 	float: left;
 }
 #cont div{
+	margin-top: 20px;
 	padding: 1em 0.5em;
 	outline: 0.1em solid #E5E3F2;
 	background-color: #FFF;
 	display: block;
 	width: 1000px;
 	margin-left: 150px;	
+}
+#muro{
+	margin-top: 320px;
 }
 #contador{
 	float: right;
